@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+body{
+	background-image:url("../imagenes/fondo.png");
+	background-repeat:repeat;
+}
+
+#principal #contenido #texto{
+	width:100%;
+	float:left;
+	margin-right:0px;
+}
+
+#principal #contenido #imagen.galeria{
+	width:760px;
+	float:left;
+	clear:both;
+	margin-top:20px;
+	margin-left:10px;
+}
+
+#principal #contenido #imagen.galeria .miniatura{
+	width:160px;
+	height:320px;
+
+	border:5px solid #FF46D5;
+
+	float:left;
+
+	margin:5px;
+
+	text-align:center;
+
+	background:#FFFFFF;
+
+	padding:5px;
+
+	border-radius:12px;
+
+	box-shadow:0px 0px 8px rgba(0,0,0,0.2);
+}
+
+#principal #contenido #imagen.galeria .miniatura:hover{
+	border:5px solid #A413BD;
+
+	transform:scale(1.03);
+
+	transition:0.3s;
+}
+
+#principal #contenido #imagen.galeria .miniatura img{
+	width:150px;
+	height:150px;
+
+	object-fit:cover;
+
+	border-radius:8px;
+
+	display:block;
+
+	margin:auto;
+}
+
+.nombre{
+	font-size:15px;
+
+	font-weight:bold;
+
+	color:#C14D8D;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	margin-top:8px;
+	margin-bottom:4px;
+}
+
+.precio{
+	font-size:14px;
+
+	color:#7A4B4B;
+
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#principal #contenido #imagen.galeria .miniatura p{
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:13px;
+
+	line-height:16px;
+
+	color:#555555;
+
+	padding-left:5px;
+	padding-right:5px;
+}

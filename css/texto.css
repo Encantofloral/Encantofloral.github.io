@@ -1,0 +1,14 @@
+@charset "utf-8";
+#texto h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #D177C9;
+	font-size: 36px;
+}
+#texto h2 {
+	color: #D34C8C;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#texto p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
